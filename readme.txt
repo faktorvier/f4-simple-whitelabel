@@ -3,7 +3,7 @@ Contributors: faktorvier
 Donate link: https://www.faktorvier.ch/donate/
 Tags: white label, whitelabel, login, login page, favicon, admin bar, admin menu, footer text, custom admin, customize admin, customize login, customize admin bar
 Requires at least: 5.2
-Tested up to: 5.2
+Tested up to: 5.3
 Requires PHP: 7.0
 Stable tag: 1.0.0
 License: GPLv2
@@ -21,13 +21,14 @@ Currently this is only possible with a few easy to use hooks. We plan to add an 
 
 You can add the following hooks to the functions.php of your theme.
 
-== Add favicon to login page and backend ==
+**Add favicon to login page and backend:**
 
 	add_filter('F4/SWL/admin_favicon', function() {
 		return 'url-to-your-favicon.ico';
 	});
 
-== Change the login page image ==
+
+**Change the login page image:**
 
 	add_filter('F4/SWL/login_image', function() {
 		return 'url-to-your-login-image.png';
@@ -53,7 +54,7 @@ If needed you can add custom **inline styles** to the image:
 		return 'width:50px; height:50px;';
 	});
 
-== Add a custom logo to the admin bar ==
+**Add a custom logo to the admin bar:**
 
 	add_filter('F4/SWL/admin_bar_logo', function() {
 		return 'url-to-your-admin-bar-logo.png';
@@ -81,7 +82,7 @@ If you have users that like to use the **light color theme**, you can define a d
 		return 'url-to-your-admin-bar-logo-light.png';
 	});
 
-== Change the backend footer texts ==
+**Change the backend footer texts:**
 
 	add_filter('F4/SWL/admin_footer_text', function() {
 		return '<span id="footer-thankyou">Thank you for creating with WordPress.Get</span>';
