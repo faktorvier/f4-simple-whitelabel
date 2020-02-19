@@ -21,8 +21,8 @@ class Hooks {
 	 * @static
 	 */
 	public static function init() {
-		add_action('F4/SWL/Core/set_constants', __NAMESPACE__ . '\\Hooks::set_default_constants', 99);
-		add_action('F4/SWL/Core/loaded', __NAMESPACE__ . '\\Hooks::loaded');
+		add_action('F4/SWL/set_constants', __NAMESPACE__ . '\\Hooks::set_default_constants', 99);
+		add_action('F4/SWL/loaded', __NAMESPACE__ . '\\Hooks::loaded');
 	}
 
 	/**
