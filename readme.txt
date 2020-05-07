@@ -3,7 +3,7 @@ Contributors: faktorvier
 Donate link: https://www.faktorvier.ch/donate/
 Tags: white label, whitelabel, login, login page, favicon, admin bar, admin menu, footer text, custom admin, customize admin, customize login, customize admin bar
 Requires at least: 5.2
-Tested up to: 5.3
+Tested up to: 5.4
 Requires PHP: 7.0
 Stable tag: 1.0.1
 License: GPLv2
@@ -113,6 +113,9 @@ If you have users that like to use the **light color theme**, you can define a d
 1. Use the hooks explained in the usage section above
 
 == Changelog ==
+
+= 1.0.2 =
+* Support WordPress 5.4
 
 = 1.0.1 =
 * Update namespaces
