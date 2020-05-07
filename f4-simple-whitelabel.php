@@ -10,7 +10,7 @@ Author URI: https://www.faktorvier.ch
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: f4-simple-whitelabel
-Domain Path: lang
+Domain Path: /languages/
 
 This plugin is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

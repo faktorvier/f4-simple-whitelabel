@@ -56,7 +56,7 @@ class Hooks {
 	 * @static
 	 */
 	public static function load_textdomain() {
-		load_plugin_textdomain('f4-simple-whitelabel', false, plugin_basename(F4_SWL_PATH . 'lang') . '/');
+		load_plugin_textdomain('f4-simple-whitelabel', false, plugin_basename(F4_SWL_PATH . 'languages') . '/');
 	}
 }
 
