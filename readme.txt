@@ -112,6 +112,12 @@ If you have users that like to use the **light color theme**, you can define a d
 1. Activate the plugin through the 'Plugins' screen in WordPress
 1. Use the hooks explained in the usage section above
 
+== Screenshots ==
+
+1. Login page image
+2. Admin bar logo
+3. Admin footer texts
+
 == Changelog ==
 
 = 1.0.3 =
