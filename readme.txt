@@ -5,7 +5,7 @@ Tags: white label, whitelabel, login, login page, favicon, admin bar, admin menu
 Requires at least: 5.2
 Tested up to: 6.0
 Requires PHP: 7.0
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Allows you to to change the login image, admin bar logo and admin footer text.
 
 == Description ==
 
-With this plugin you can change the **login image**, add a **custom logo to the admin bar** and change the **admin footer texts**.
+With [F4 Simple White Label](https://www.f4dev.ch) you can change the **login image**, add a **custom logo to the admin bar** and change the **admin footer texts**.
 
 Currently this is only possible with a few easy to use hooks. We plan to add an options page to the WordPress backend, so you can change all the above mentioned without using a single line of code.
 
@@ -37,7 +37,7 @@ You can add the following hooks to the functions.php of your theme.
 You can also change the **href**, **link text**, **image alt text** like this:
 
 	add_filter('F4/SWL/login_image_href', function() {
-		return 'https://www.faktorvier.ch';
+		return 'https://www.f4dev.ch';
 	});
 
 	add_filter('F4/SWL/login_image_link_text', function() {
@@ -63,7 +63,7 @@ If needed you can add custom **inline styles** to the image:
 You can also change the **href**, **logo alt text** like this:
 
 	add_filter('F4/SWL/admin_bar_logo_href', function() {
-		return 'https://www.faktorvier.ch';
+		return 'https://www.f4dev.ch';
 	});
 
 	add_filter('F4/SWL/admin_bar_logo_alt', function() {
@@ -119,6 +119,9 @@ If you have users that like to use the **light color theme**, you can define a d
 3. Admin footer texts
 
 == Changelog ==
+
+= 1.0.9 =
+* Update www.f4dev.ch links
 
 = 1.0.8 =
 * Support WordPress 6.0

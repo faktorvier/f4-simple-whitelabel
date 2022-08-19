@@ -4,9 +4,9 @@
 Plugin Name: F4 Simple White Label
 Plugin URI: https://github.com/faktorvier/f4-simple-whitelabel
 Description: Allows you to to change the login image, admin bar logo and admin footer text.
-Version: 1.0.8
+Version: 1.0.9
 Author: FAKTOR VIER
-Author URI: https://www.faktorvier.ch
+Author URI: https://www.f4dev.ch
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: f4-simple-whitelabel
@@ -28,7 +28,7 @@ along with this plugin. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 
 if(!defined('ABSPATH')) exit;
 
-define('F4_SWL_VERSION', '1.0.8');
+define('F4_SWL_VERSION', '1.0.9');
 
 define('F4_SWL_SLUG', 'f4-simple-whitelabel');
 define('F4_SWL_MAIN_FILE', __FILE__);
